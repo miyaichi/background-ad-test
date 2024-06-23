@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Ad Test</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        #content {
+            z-index: 50;
+            position: relative;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Background Ad Test</h1>
+        <div class="image-container">
+            <img src="./content.jpg" alt="content 1">
+            <img src="./content.jpg" alt="content 2">
+            <img src="./content.jpg" alt="content 3">
+        </div>
+    </div>
+</body>
+</html>
